@@ -1,0 +1,55 @@
+.common_button{
+    border-radius: 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: white;
+    background-color: #f58634;
+    border:none;
+    white-space: pre;
+    opacity:0.5;
+    transition: all .5s ease-in-out;
+}
+.button{
+    position:relative;
+}
+
+.dropdown{
+    position: absolute;
+    background-color: white;
+    padding:10px;
+    top: 100%;
+    left:0;
+    width: 100%;
+    top:40px;
+    z-index: 2;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  }
+
+
+.dropdown a{
+    display:block;
+    list-style: none;
+    padding: 10px 0;
+    width: 100%;
+    margin-left: 0;
+}
+.dropdown a:hover{
+    background-color: #efeff0;
+    cursor: pointer;
+}
+
+.common_button:hover{
+    opacity: 1;
+    color:white;
+}
+.common_button svg{
+    fill:white;
+    font-size:20px;
+}
+.common_button:focus{
+    outline:none;
+}
